@@ -1,0 +1,11 @@
+ cloud_pct.innerHTML = reponse.cloud_pct
+ temp.innerHTML = reponse.temp
+ feels_like.innerHTML = reponse.feels_like
+ humidity.innerHTML = reponse.humidity
+ min_temp.innerHTML = reponse.min_temp
+ max_temp.innerHTML= reponse.max_temp
+ wind_speed.innerHTML = response.wind_speed
+ wind_degrees.innerHTML = reponse.wind_degrees 
+ sunrise.innerHTML = reponse.sunrise
+ sunset.innerHTML = reponse.sunset
+  

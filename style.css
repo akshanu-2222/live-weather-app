@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    
+    box-sizing: border-box;
+}
+
+
+.container{
+    width:auto;
+    height:100vh;
+    background-color:rgba(0,0,0,0.2);
+}
+
+
+
+
+video{
+    min-width:100%;
+    min-height:100%;
+    right:0;
+    bottom:0;
+    position: fixed;
+    object-fit:cover;
+    transition:all 1s linear;
+    z-index: -10;
+   
+    
+    
+   
+    
+}
+
+
+
+.video1{
+    opacity:1;
+    width:100%;
+
+}
+
+h1{
+    color:orange;
+    padding-top:15px;
+   
+}
+
+.navbar-brand{
+    color:orange;
+}
+
+.card{
+    width:300px;
+    height:430px;
+    top:30%;
+    left:29%;
+    border-radius:6px;
+    box-shadow:0px 1px 10px 1px #000000;
+    transform:translate(-20%,-20%);
+    overflow:hidden;
+    
+}
+
